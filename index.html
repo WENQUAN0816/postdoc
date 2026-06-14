@@ -584,7 +584,7 @@
       apac: '亚太目标',
       euroUkUs: '欧美英目标',
       portal: '官网申请',
-      outreach: '外联准备',
+      outreach: '已外联/准备外联',
       watch: '观察池'
     };
 
@@ -662,7 +662,7 @@
         [labels.apac, countWhere(item => item.大区 === '亚太')],
         [labels.euroUkUs, countWhere(item => ['欧洲', '英国', '美国'].includes(item.大区))],
         [labels.portal, countWhere(item => item.申请入口.includes('官网'))],
-        [labels.outreach, countWhere(item => item.申请入口.includes('准备'))]
+        [labels.outreach, countWhere(item => item.申请入口.includes('准备') || item.申请入口.includes('已邮件外联'))]
       ];
 
       el.stats.innerHTML = stats.map(([label, value]) => `
