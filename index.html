@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>温泉海外博后机会看板</title>
+  <style>
+    :root {
+      --bg: #f7f7f2;
+      --surface: #ffffff;
+      --surface-2: #eef3f0;
+      --ink: #1f2933;
+      --muted: #637381;
+      --line: #d8ded9;
+      --blue: #2364aa;
+      --green: #2d6a4f;
+      --amber: #b7791f;
+      --red: #b5472f;
+      --teal: #0f766e;
+      --radius: 8px;
+      --shadow: 0 1px 2px rgba(31, 41, 51, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      letter-spacing: 0;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    .topbar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .topbar-inner,
+    .toolbar,
+    .main {
+      width: min(1440px, 100%);
+      margin: 0 auto;
+      padding-left: 22px;
+      padding-right: 22px;
+    }
+
+    .topbar-inner {
+      padding-top: 18px;
+      padding-bottom: 18px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.18;
+      font-weight: 780;
+    }
+
+    .subtitle {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+      max-width: 900px;
+    }
+
+    .data-meta {
+      display: grid;
+      justify-items: end;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .data-meta strong {
+      color: var(--ink);
+      font-size: 13px;
+    }
+
+    .toolbar-band {
+      background: var(--surface-2);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .toolbar {
+      padding-top: 14px;
+      padding-bottom: 14px;
+      display: grid;
+      grid-template-columns: minmax(220px, 1.4fr) repeat(5, minmax(130px, 0.7fr)) auto;
+      gap: 10px;
+      align-items: end;
+    }
+
+    .field {
+      min-width: 0;
+      display: grid;
+      gap: 5px;
+    }
+
+    label {
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1;
+      font-weight: 740;
+    }
+
+    input,
+    select {
+      width: 100%;
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      color: var(--ink);
+      padding: 0 10px;
+      outline: none;
+    }
+
+    input:focus,
+    select:focus,
+    button:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(35, 100, 170, 0.14);
+    }
+
+    .reset-button {
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      color: var(--ink);
+      padding: 0 13px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .reset-button:hover {
+      background: #f3f6f4;
+    }
+
+    .main {
+      padding-top: 22px;
+      padding-bottom: 34px;
+      display: grid;
+      gap: 22px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(120px, 1fr));
+      gap: 12px;
+    }
+
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px;
+      min-height: 92px;
+      box-shadow: var(--shadow);
+      display: grid;
+      align-content: space-between;
+      gap: 10px;
+    }
+
+    .stat-label {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .stat-value {
+      font-size: 28px;
+      line-height: 1;
+      font-weight: 780;
+    }
+
+    .section {
+      display: grid;
+      gap: 12px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.25;
+    }
+
+    .section-note {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+      text-align: right;
+    }
+
+    .priority-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .opportunity-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px;
+      box-shadow: var(--shadow);
+      display: grid;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .card-top {
+      display: grid;
+      gap: 6px;
+    }
+
+    .card-title {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .code {
+      flex: 0 0 auto;
+      display: inline-grid;
+      place-items: center;
+      height: 24px;
+      min-width: 74px;
+      padding: 0 8px;
+      border-radius: 999px;
+      background: #e8f0f8;
+      color: #174b82;
+      font-size: 12px;
+      font-weight: 780;
+    }
+
+    .institution {
+      min-width: 0;
+      overflow-wrap: anywhere;
+      font-weight: 780;
+      line-height: 1.3;
+    }
+
+    .center {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      overflow-wrap: anywhere;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fafaf7;
+      color: var(--ink);
+      padding: 2px 8px;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .tag.status-open,
+    .tag.package-yes {
+      background: #e8f5ee;
+      color: var(--green);
+      border-color: #c7e5d4;
+    }
+
+    .tag.status-portal {
+      background: #fff4df;
+      color: var(--amber);
+      border-color: #ead4a3;
+    }
+
+    .tag.status-check {
+      background: #fce9e4;
+      color: var(--red);
+      border-color: #f1c4b8;
+    }
+
+    .fit {
+      margin: 0;
+      color: var(--ink);
+      font-size: 13px;
+      line-height: 1.48;
+    }
+
+    .next {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 1080px;
+    }
+
+    th,
+    td {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      font-size: 13px;
+      line-height: 1.42;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #f3f6f4;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 760;
+      white-space: nowrap;
+    }
+
+    tbody tr:hover {
+      background: #fbfcfa;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .table-title {
+      font-weight: 760;
+      color: var(--ink);
+      overflow-wrap: anywhere;
+    }
+
+    .compact {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .empty {
+      background: var(--surface);
+      border: 1px dashed var(--line);
+      border-radius: var(--radius);
+      padding: 24px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .notice {
+      background: #fffaf1;
+      border: 1px solid #ead4a3;
+      border-radius: var(--radius);
+      padding: 12px 14px;
+      color: #755314;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 1180px) {
+      .toolbar {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .reset-button {
+        width: 100%;
+      }
+
+      .stats-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .priority-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 760px) {
+      .topbar-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .data-meta {
+        justify-items: start;
+        white-space: normal;
+      }
+
+      .toolbar {
+        grid-template-columns: 1fr;
+      }
+
+      .stats-grid,
+      .priority-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-header {
+        display: grid;
+      }
+
+      .section-note {
+        text-align: left;
+      }
+
+      .topbar-inner,
+      .toolbar,
+      .main {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+
+      h1 {
+        font-size: 21px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div>
+        <h1>温泉海外博后机会看板</h1>
+        <p class="subtitle" id="positioning">AI辅助的适老建成环境与公共卫生评价</p>
+      </div>
+      <div class="data-meta">
+        <span>更新时间</span>
+        <strong id="updatedAt">读取中</strong>
+        <a href="data/opportunities.json" target="_blank" rel="noopener">数据文件</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar-band">
+    <form class="toolbar" id="filters">
+      <div class="field">
+        <label for="searchInput">搜索</label>
+        <input id="searchInput" type="search" placeholder="学校、国家、导师、方向">
+      </div>
+      <div class="field">
+        <label for="regionFilter">大区</label>
+        <select id="regionFilter"></select>
+      </div>
+      <div class="field">
+        <label for="countryFilter">国家或地区</label>
+        <select id="countryFilter"></select>
+      </div>
+      <div class="field">
+        <label for="topicFilter">方向</label>
+        <select id="topicFilter"></select>
+      </div>
+      <div class="field">
+        <label for="entryFilter">申请入口</label>
+        <select id="entryFilter"></select>
+      </div>
+      <div class="field">
+        <label for="priorityFilter">优先级</label>
+        <select id="priorityFilter"></select>
+      </div>
+      <button class="reset-button" type="button" id="resetButton">重置</button>
+    </form>
+  </div>
+
+  <main class="main">
+    <section class="stats-grid" id="stats"></section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>第一批定制目标</h2>
+        <div class="section-note" id="priorityNote"></div>
+      </div>
+      <div class="priority-grid" id="priorityGrid"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>完整机会清单</h2>
+        <div class="section-note" id="resultCount"></div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>编号</th>
+              <th>机构与方向</th>
+              <th>国家/大区</th>
+              <th>状态</th>
+              <th>申请入口</th>
+              <th>匹配摘要</th>
+              <th>下一步</th>
+              <th>链接</th>
+            </tr>
+          </thead>
+          <tbody id="opportunityRows"></tbody>
+        </table>
+      </div>
+      <div class="empty" id="emptyState" hidden>没有匹配的机会。</div>
+    </section>
+
+    <section class="notice" id="publicNotice"></section>
+  </main>
+
+  <script>
+    const state = {
+      opportunities: [],
+      filtered: [],
+      metadata: {}
+    };
+
+    const el = {
+      updatedAt: document.getElementById('updatedAt'),
+      positioning: document.getElementById('positioning'),
+      publicNotice: document.getElementById('publicNotice'),
+      stats: document.getElementById('stats'),
+      priorityGrid: document.getElementById('priorityGrid'),
+      priorityNote: document.getElementById('priorityNote'),
+      resultCount: document.getElementById('resultCount'),
+      rows: document.getElementById('opportunityRows'),
+      emptyState: document.getElementById('emptyState'),
+      search: document.getElementById('searchInput'),
+      region: document.getElementById('regionFilter'),
+      country: document.getElementById('countryFilter'),
+      topic: document.getElementById('topicFilter'),
+      entry: document.getElementById('entryFilter'),
+      priority: document.getElementById('priorityFilter'),
+      reset: document.getElementById('resetButton')
+    };
+
+    const labels = {
+      all: '全部',
+      total: '全部目标',
+      firstBatch: '第一批定制',
+      apac: '亚太目标',
+      euroUkUs: '欧美英目标',
+      portal: '官网申请',
+      outreach: '外联准备',
+      watch: '观察池'
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll(\"'\", '&#039;');
+    }
+
+    function unique(items) {
+      return [...new Set(items.filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
+    }
+
+    function fillSelect(select, values) {
+      select.innerHTML = `<option value=\"\">${labels.all}</option>` +
+        values.map(value => `<option value=\"${escapeHtml(value)}\">${escapeHtml(value)}</option>`).join('');
+    }
+
+    function statusClass(value) {
+      if (value.includes('开放') || value.includes('滚动')) return 'status-open';
+      if (value.includes('官网')) return 'status-portal';
+      if (value.includes('核验')) return 'status-check';
+      return '';
+    }
+
+    function entryClass(value) {
+      if (value.includes('准备')) return 'package-yes';
+      if (value.includes('官网')) return 'status-portal';
+      if (value.includes('核验')) return 'status-check';
+      return '';
+    }
+
+    function textOf(item) {
+      return [
+        item.编号,
+        item.机构,
+        item.国家或地区,
+        item.大区,
+        item.中心或导师,
+        item.机会状态,
+        item.申请入口,
+        item.优先级,
+        item.匹配摘要,
+        item.适配重点,
+        item.下一步,
+        ...(item.方向标签 || [])
+      ].join(' ').toLowerCase();
+    }
+
+    function applyFilters() {
+      const keyword = el.search.value.trim().toLowerCase();
+      state.filtered = state.opportunities.filter(item => {
+        const topicHit = !el.topic.value || (item.方向标签 || []).includes(el.topic.value);
+        return (!keyword || textOf(item).includes(keyword)) &&
+          (!el.region.value || item.大区 === el.region.value) &&
+          (!el.country.value || item.国家或地区 === el.country.value) &&
+          topicHit &&
+          (!el.entry.value || item.申请入口 === el.entry.value) &&
+          (!el.priority.value || item.优先级 === el.priority.value);
+      });
+      render();
+    }
+
+    function countWhere(predicate) {
+      return state.opportunities.filter(predicate).length;
+    }
+
+    function renderStats() {
+      const stats = [
+        [labels.total, state.opportunities.length],
+        [labels.firstBatch, countWhere(item => item.优先级 === '第一批')],
+        [labels.apac, countWhere(item => item.大区 === '亚太')],
+        [labels.euroUkUs, countWhere(item => ['欧洲', '英国', '美国'].includes(item.大区))],
+        [labels.portal, countWhere(item => item.申请入口.includes('官网'))],
+        [labels.outreach, countWhere(item => item.申请入口.includes('准备'))]
+      ];
+
+      el.stats.innerHTML = stats.map(([label, value]) => `
+        <article class=\"stat-card\">
+          <div class=\"stat-label\">${escapeHtml(label)}</div>
+          <div class=\"stat-value\">${value}</div>
+        </article>
+      `).join('');
+    }
+
+    function renderPriorityGrid() {
+      const firstBatch = state.filtered.filter(item => item.优先级 === '第一批');
+      el.priorityNote.textContent = `${firstBatch.length} 个目标`;
+      el.priorityGrid.innerHTML = firstBatch.map(item => `
+        <article class=\"opportunity-card\">
+          <div class=\"card-top\">
+            <div class=\"card-title\">
+              <span class=\"code\">${escapeHtml(item.编号)}</span>
+              <span class=\"institution\">${escapeHtml(item.机构)}</span>
+            </div>
+            <div class=\"center\">${escapeHtml(item.中心或导师)}</div>
+          </div>
+          <div class=\"tag-row\">
+            <span class=\"tag\">${escapeHtml(item.国家或地区)}</span>
+            <span class=\"tag ${statusClass(item.机会状态)}\">${escapeHtml(item.机会状态)}</span>
+            <span class=\"tag ${entryClass(item.申请入口)}\">${escapeHtml(item.申请入口)}</span>
+            <span class=\"tag package-yes\">适配包：${escapeHtml(item.已有适配包)}</span>
+          </div>
+          <p class=\"fit\">${escapeHtml(item.匹配摘要)}</p>
+          <p class=\"next\">${escapeHtml(item.下一步)}</p>
+          <a href=\"${escapeHtml(item.公开链接)}\" target=\"_blank\" rel=\"noopener\">打开公开链接</a>
+        </article>
+      `).join('');
+    }
+
+    function renderRows() {
+      el.resultCount.textContent = `${state.filtered.length} / ${state.opportunities.length} 个目标`;
+      el.emptyState.hidden = state.filtered.length > 0;
+      el.rows.innerHTML = state.filtered.map(item => `
+        <tr>
+          <td><strong>${escapeHtml(item.编号)}</strong></td>
+          <td>
+            <div class=\"table-title\">${escapeHtml(item.机构)}</div>
+            <div class=\"compact\">${escapeHtml(item.中心或导师)}</div>
+            <div class=\"tag-row\">${(item.方向标签 || []).map(tag => `<span class=\"tag\">${escapeHtml(tag)}</span>`).join('')}</div>
+          </td>
+          <td>${escapeHtml(item.国家或地区)}<div class=\"compact\">${escapeHtml(item.大区)}</div></td>
+          <td><span class=\"tag ${statusClass(item.机会状态)}\">${escapeHtml(item.机会状态)}</span></td>
+          <td><span class=\"tag ${entryClass(item.申请入口)}\">${escapeHtml(item.申请入口)}</span></td>
+          <td>${escapeHtml(item.匹配摘要)}<div class=\"compact\">${escapeHtml(item.适配重点)}</div></td>
+          <td>${escapeHtml(item.下一步)}<div class=\"compact\">材料：${escapeHtml(item.材料状态)}</div></td>
+          <td><a href=\"${escapeHtml(item.公开链接)}\" target=\"_blank\" rel=\"noopener\">打开</a></td>
+        </tr>
+      `).join('');
+    }
+
+    function render() {
+      renderStats();
+      renderPriorityGrid();
+      renderRows();
+    }
+
+    function setupFilters() {
+      fillSelect(el.region, unique(state.opportunities.map(item => item.大区)));
+      fillSelect(el.country, unique(state.opportunities.map(item => item.国家或地区)));
+      fillSelect(el.topic, unique(state.opportunities.flatMap(item => item.方向标签 || [])));
+      fillSelect(el.entry, unique(state.opportunities.map(item => item.申请入口)));
+      fillSelect(el.priority, unique(state.opportunities.map(item => item.优先级)));
+
+      [el.search, el.region, el.country, el.topic, el.entry, el.priority].forEach(control => {
+        control.addEventListener('input', applyFilters);
+        control.addEventListener('change', applyFilters);
+      });
+
+      el.reset.addEventListener('click', () => {
+        el.search.value = '';
+        el.region.value = '';
+        el.country.value = '';
+        el.topic.value = '';
+        el.entry.value = '';
+        el.priority.value = '';
+        applyFilters();
+      });
+    }
+
+    fetch('data/opportunities.json')
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json();
+      })
+      .then(data => {
+        state.metadata = data.metadata || {};
+        state.opportunities = data.opportunities || [];
+        state.filtered = [...state.opportunities];
+        el.updatedAt.textContent = state.metadata.更新时间 || '';
+        el.positioning.textContent = state.metadata.研究定位 || el.positioning.textContent;
+        el.publicNotice.textContent = state.metadata.公开说明 || '';
+        setupFilters();
+        render();
+      })
+      .catch(error => {
+        el.updatedAt.textContent = '读取失败';
+        el.publicNotice.textContent = `数据读取失败：${error.message}`;
+      });
+  </script>
+</body>
+</html>
