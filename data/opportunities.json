@@ -16,7 +16,7 @@
       "中心或导师": "Saw Swee Hock SPH, Community Health, Cities and Spatial Analysis",
       "公开链接": "https://careers.nus.edu.sg/job/Research-AssociateAssistant-%28Community-Health%2C-Cities-and-Spatial-Analysis%29/31740-en_GB/",
       "机会状态": "开放申请",
-      "申请入口": "官网待投",
+      "申请入口": "邮件已投/门户待登录",
       "优先级": "第一批",
       "匹配摘要": "城市健康、空间分析、建成环境暴露",
       "适配重点": "突出城市/建筑环境暴露、空间统计和健康公平。",
@@ -26,8 +26,8 @@
         "建筑/建成环境"
       ],
       "已有适配包": "是",
-      "材料状态": "已有第一版定制材料；需按官网表单上传",
-      "下一步": "进入官网系统核对岗位要求、截止日期和附件字段后提交"
+      "材料状态": "已按官网要求发送CV、短cover letter和代表论文链接；门户仍需NUS账号/隐私确认",
+      "下一步": "登录或创建NUS SuccessFactors账号，确认隐私条款和profile可见性后补交portal申请"
     },
     {
       "编号": "APAC-02",
@@ -450,7 +450,7 @@
       "中心或导师": "ISU / SpACE Lab, Prof. Vanessa Carlow",
       "公开链接": "https://www.tu-braunschweig.de/en/vacancies/scientific-staff/postdoctoral-research-fellow-in-urban-planning-and-geoai-d/f/m-fulltime-at-space-lab-at-isu-institute-for-sustainable-urbanism",
       "机会状态": "开放申请",
-      "申请入口": "官网待投",
+      "申请入口": "正式邮件已投",
       "优先级": "第一批",
       "匹配摘要": "城市规划、GeoAI、数字/沉浸式空间基础设施",
       "适配重点": "做面向健康和年龄友好城市环境的GeoAI诊断。",
@@ -461,8 +461,8 @@
         "建筑/建成环境"
       ],
       "已有适配包": "是",
-      "材料状态": "已有第一版定制材料；需按官网表单上传",
-      "下一步": "进入官网系统核对岗位要求、截止日期和附件字段后提交"
+      "材料状态": "已向ISU官方邮箱发送CV、cover+motivation和publication links",
+      "下一步": "等待回复；如进入shortlist再补degree completion letter或portfolio"
     },
     {
       "编号": "EUSUK-02",
@@ -494,7 +494,7 @@
       "中心或导师": "STEAM / DYNAMO, Sonia Yeh and Jorge Gil",
       "公开链接": "https://web103.reachmee.com/ext/I003/304/job?job_id=14888&lang=UK&site=5&validator=a72aeedd63ec10de71e46f8d91d0d57c",
       "机会状态": "开放申请",
-      "申请入口": "官网待投",
+      "申请入口": "门户阻塞：缺个人信息/证明",
       "优先级": "第一批",
       "匹配摘要": "出行数字孪生、地理空间数据、公平/可达性",
       "适配重点": "聚焦中断场景下老年和脆弱群体可达性。",
@@ -506,8 +506,8 @@
         "智慧建筑/数字孪生"
       ],
       "已有适配包": "是",
-      "材料状态": "已有第一版定制材料；需按官网表单上传",
-      "下一步": "进入官网系统核对岗位要求、截止日期和附件字段后提交"
+      "材料状态": "岗位开放；已生成personal letter；还缺birth year、gender、电话地址、PhD题名、两位推荐人、学历/成绩/课程证明和论文PDF",
+      "下一步": "补齐用户确认信息和证明文件后在ReachMee提交"
     },
     {
       "编号": "EUSUK-04",
@@ -970,7 +970,7 @@
       "中心或导师": "Environmental Health, Climate, and Sustainability Program",
       "公开链接": "https://careers.lsuhsc.edu/jobs/research-fellow-new-orleans-louisiana-united-states-5d770240-c639-49e6-8b70-d51d3d5ce128",
       "机会状态": "开放申请",
-      "申请入口": "官网待投",
+      "申请入口": "PageUp草稿已建/待本人确认",
       "优先级": "第一批",
       "匹配摘要": "城市热暴露、健康差异、GIS/遥感",
       "适配重点": "把空间健康研究转成精细热风险规划成果。",
@@ -979,8 +979,8 @@
         "公共卫生/环境健康"
       ],
       "已有适配包": "是",
-      "材料状态": "已有第一版定制材料；需按官网表单上传",
-      "下一步": "进入官网系统核对岗位要求、截止日期和附件字段后提交"
+      "材料状态": "PageUp草稿已建；岗位专用CV已上传；cover letter上传页已显示文件名但需复核保存状态；最终提交需本人确认授权/披露/声明",
+      "下一步": "复核cover letter保存状态，确认美国工作授权/赞助、可选披露、真实性声明和最终提交"
     },
     {
       "编号": "EUSUK-26",
@@ -1304,9 +1304,10 @@
       "已邮件外联": 7,
       "已收到回复": 1,
       "待约Zoom": 1,
-      "官网待投": 4,
+      "官网待投": 0,
       "需核验联系渠道": 1,
-      "最近更新": "2026-06-15"
+      "最近更新": "2026-06-15",
+      "门户待用户确认": 3
     },
     "投递事件": [
       {
@@ -1362,27 +1363,34 @@
         "目标": "Monash Malaysia Gerontechnology Lab",
         "状态": "已回复",
         "公开说明": "已说明目前在马来西亚槟城USM，可配合7月初Zoom时间，并可会前提供CV、代表论文和简短fit说明。"
-      }
-    ],
-    "官网待投": [
-      {
-        "目标": "NUS Community Health, Cities and Spatial Analysis",
-        "下一步": "官网系统提交；检查岗位附件要求。"
       },
       {
+        "日期": "2026-06-15",
+        "目标": "NUS Community Health, Cities and Spatial Analysis",
+        "状态": "邮件申请已发送",
+        "公开说明": "按官网要求向两个联系人发送CV、短cover letter和代表论文链接；portal仍需账号登录和隐私确认。"
+      },
+      {
+        "日期": "2026-06-15",
         "目标": "TU Braunschweig SpACE Lab Urban Planning and GeoAI",
-        "下一步": "官网系统提交；公开清单曾标注截止日期需重点核对。"
+        "状态": "正式邮件已投",
+        "公开说明": "按官方Phase 1要求发送CV、cover/motivation和publication links。"
+      }
+    ],
+    "官网待投": [],
+    "待核验": [
+      {
+        "目标": "NUS Community Health, Cities and Spatial Analysis",
+        "下一步": "登录/创建NUS账号并确认隐私条款后补交portal。"
       },
       {
         "目标": "Chalmers DYNAMO mobility digital twins",
-        "下一步": "官网系统提交；核对岗位表单和附件字段。"
+        "下一步": "补齐个人信息、PhD论文题名、两位推荐人和证明/论文文件后提交ReachMee。"
       },
       {
         "目标": "LSUHSC heat-health GIS Research Fellow",
-        "下一步": "官网系统提交；核对美国岗位申请要求。"
-      }
-    ],
-    "待核验": [
+        "下一步": "复核cover letter保存状态，并由本人确认工作授权/赞助、可选披露、真实性声明和最终提交。"
+      },
       {
         "目标": "University of Manchester Urban Ageing Research Group",
         "下一步": "核验最新导师或中心公开联系渠道后再外联。"
