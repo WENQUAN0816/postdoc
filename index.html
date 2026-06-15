@@ -233,6 +233,65 @@
       gap: 12px;
     }
 
+    .tracking-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+      gap: 12px;
+      align-items: start;
+    }
+
+    .timeline,
+    .pending-list {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 14px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .timeline-item,
+    .pending-item {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 10px;
+      display: grid;
+      gap: 5px;
+    }
+
+    .timeline-item:last-child,
+    .pending-item:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .timeline-head {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      align-items: center;
+    }
+
+    .timeline-date {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 720;
+    }
+
+    .timeline-target,
+    .pending-target {
+      font-weight: 760;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .timeline-note,
+    .pending-note {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
     .opportunity-card {
       background: var(--surface);
       border: 1px solid var(--line);
@@ -320,6 +379,12 @@
       background: #fce9e4;
       color: var(--red);
       border-color: #f1c4b8;
+    }
+
+    .tag.status-reply {
+      background: #e7f6f5;
+      color: var(--teal);
+      border-color: #bfe4df;
     }
 
     .fit {
@@ -425,6 +490,10 @@
       .priority-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
+
+      .tracking-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     @media (max-width: 760px) {
@@ -442,7 +511,8 @@
       }
 
       .stats-grid,
-      .priority-grid {
+      .priority-grid,
+      .tracking-grid {
         grid-template-columns: 1fr;
       }
 
@@ -517,6 +587,17 @@
 
     <section class="section">
       <div class="section-header">
+        <h2>投递进展</h2>
+        <div class="section-note" id="trackingNote"></div>
+      </div>
+      <div class="tracking-grid">
+        <div class="timeline" id="timeline"></div>
+        <div class="pending-list" id="pendingList"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
         <h2>第一批定制目标</h2>
         <div class="section-note" id="priorityNote"></div>
       </div>
@@ -563,6 +644,9 @@
       positioning: document.getElementById('positioning'),
       publicNotice: document.getElementById('publicNotice'),
       stats: document.getElementById('stats'),
+      timeline: document.getElementById('timeline'),
+      pendingList: document.getElementById('pendingList'),
+      trackingNote: document.getElementById('trackingNote'),
       priorityGrid: document.getElementById('priorityGrid'),
       priorityNote: document.getElementById('priorityNote'),
       resultCount: document.getElementById('resultCount'),
@@ -585,6 +669,8 @@
       euroUkUs: '欧美英目标',
       portal: '官网申请',
       outreach: '已外联/准备外联',
+      replies: '已回复',
+      zoom: '待约Zoom',
       watch: '观察池'
     };
 
@@ -594,7 +680,7 @@
         .replaceAll('<', '&lt;')
         .replaceAll('>', '&gt;')
         .replaceAll('"', '&quot;')
-        .replaceAll(\"'\", '&#039;');
+        .replaceAll("'", '&#039;');
     }
 
     function unique(items) {
@@ -610,11 +696,14 @@
       if (value.includes('开放') || value.includes('滚动')) return 'status-open';
       if (value.includes('官网')) return 'status-portal';
       if (value.includes('核验')) return 'status-check';
+      if (value.includes('回复') || value.includes('Zoom')) return 'status-reply';
       return '';
     }
 
     function entryClass(value) {
+      if (value.includes('回复') || value.includes('Zoom')) return 'status-reply';
       if (value.includes('准备')) return 'package-yes';
+      if (value.includes('邮件外联')) return 'package-yes';
       if (value.includes('官网')) return 'status-portal';
       if (value.includes('核验')) return 'status-check';
       return '';
@@ -658,11 +747,11 @@
     function renderStats() {
       const stats = [
         [labels.total, state.opportunities.length],
-        [labels.firstBatch, countWhere(item => item.优先级 === '第一批')],
-        [labels.apac, countWhere(item => item.大区 === '亚太')],
-        [labels.euroUkUs, countWhere(item => ['欧洲', '英国', '美国'].includes(item.大区))],
-        [labels.portal, countWhere(item => item.申请入口.includes('官网'))],
-        [labels.outreach, countWhere(item => item.申请入口.includes('准备') || item.申请入口.includes('已邮件外联'))]
+        [labels.outreach, countWhere(item => item.申请入口.includes('邮件外联') || item.申请入口.includes('回复'))],
+        [labels.replies, countWhere(item => item.申请入口.includes('回复'))],
+        [labels.zoom, countWhere(item => item.申请入口.includes('Zoom'))],
+        ['官网待投', countWhere(item => item.申请入口.includes('官网'))],
+        ['需核验', countWhere(item => item.申请入口.includes('核验'))]
       ];
 
       el.stats.innerHTML = stats.map(([label, value]) => `
@@ -671,6 +760,43 @@
           <div class=\"stat-value\">${value}</div>
         </article>
       `).join('');
+    }
+
+    function renderTracking() {
+      const tracking = state.metadata.tracking || state.tracking || {};
+      const events = tracking.投递事件 || [];
+      const portal = tracking.官网待投 || [];
+      const check = tracking.待核验 || [];
+      const overview = tracking.概览 || {};
+
+      el.trackingNote.textContent = overview.最近更新 ? `最近更新：${overview.最近更新}` : '';
+
+      el.timeline.innerHTML = events.length ? events.map(item => `
+        <article class=\"timeline-item\">
+          <div class=\"timeline-head\">
+            <span class=\"timeline-date\">${escapeHtml(item.日期)}</span>
+            <span class=\"tag ${entryClass(item.状态)}\">${escapeHtml(item.状态)}</span>
+          </div>
+          <div class=\"timeline-target\">${escapeHtml(item.目标)}</div>
+          <div class=\"timeline-note\">${escapeHtml(item.公开说明)}</div>
+        </article>
+      `).join('') : '<div class=\"timeline-note\">暂无投递事件。</div>';
+
+      const pendingItems = [
+        ...portal.map(item => ({ ...item, 状态: '官网待投' })),
+        ...check.map(item => ({ ...item, 状态: '需核验联系渠道' }))
+      ];
+
+      el.pendingList.innerHTML = `
+        <div class=\"timeline-target\">下一步队列</div>
+        ${pendingItems.length ? pendingItems.map(item => `
+          <article class=\"pending-item\">
+            <div class=\"tag-row\"><span class=\"tag ${entryClass(item.状态)}\">${escapeHtml(item.状态)}</span></div>
+            <div class=\"pending-target\">${escapeHtml(item.目标)}</div>
+            <div class=\"pending-note\">${escapeHtml(item.下一步)}</div>
+          </article>
+        `).join('') : '<div class=\"pending-note\">暂无待处理项目。</div>'}
+      `;
     }
 
     function renderPriorityGrid() {
@@ -721,6 +847,7 @@
 
     function render() {
       renderStats();
+      renderTracking();
       renderPriorityGrid();
       renderRows();
     }
@@ -755,6 +882,7 @@
       })
       .then(data => {
         state.metadata = data.metadata || {};
+        state.tracking = data.tracking || {};
         state.opportunities = data.opportunities || [];
         state.filtered = [...state.opportunities];
         el.updatedAt.textContent = state.metadata.更新时间 || '';
