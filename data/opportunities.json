@@ -1301,13 +1301,13 @@
   "tracking": {
     "概览": {
       "总机会": 60,
-      "已邮件外联": 8,
+      "已邮件外联": 9,
       "已收到回复": 1,
       "待约Zoom": 1,
       "官网待投": 0,
       "需核验联系渠道": 0,
       "最近更新": "2026-06-20",
-      "门户待用户确认": 1,
+      "门户待用户确认": 4,
       "HR邮件补交": 1
     },
     "投递事件": [
@@ -1388,6 +1388,24 @@
         "目标": "LSUHSC heat-health GIS Research Fellow",
         "状态": "HR邮件补交已发",
         "公开说明": "岗位深链返回404且门户未能最终提交；已向LSUHSC Recruiting Team补交岗位CV、cover letter和代表论文链接。"
+      },
+      {
+        "日期": "2026-06-20",
+        "目标": "TU Delft UrbanHealthTwin / Transdisciplinary Digital Twins",
+        "状态": "门户已提交",
+        "公开说明": "SuccessFactors页面确认申请已发送；已提交博士后CV和TU Delft定制动机信，材料中包含公开学术主页和demo成果链接。"
+      },
+      {
+        "日期": "2026-06-20",
+        "目标": "UCL/GLA Climate Policy and Health",
+        "状态": "门户已提交",
+        "公开说明": "UCL申请页确认已收到申请；已上传博士后CV、定制supporting statement和portfolio/demo links。"
+      },
+      {
+        "日期": "2026-06-20",
+        "目标": "Monash Optimal Ageing Robotics / HRI",
+        "状态": "已邮件外联",
+        "公开说明": "未使用Indigenous-only官方通道；已向开放路径联系人发送博士后/合作咨询，附博士后CV和公开demo portfolio。"
       }
     ],
     "官网待投": [],
@@ -1399,6 +1417,18 @@
       {
         "目标": "LSUHSC heat-health GIS Research Fellow",
         "下一步": "等待HR确认是否仍可接收或提供重新开放/继续提交入口。"
+      },
+      {
+        "目标": "PolyU Senior Mobility / Transport Equity Postdoctoral Fellow",
+        "下一步": "门户材料已上传，等待本人补充护照/HKID前4位、薪资、关系/犯罪记录/真实性声明和验证码后提交。"
+      },
+      {
+        "目标": "Newcastle Digital Twin Development",
+        "下一步": "门户账号已建立且CV已上传，申请卡在教育经历精确日期及后续推荐人、签证和平等机会信息确认。"
+      },
+      {
+        "目标": "Newcastle DIAN Digital Health/Ageing/Neurodegeneration",
+        "下一步": "门户提示账号已存在，需要登录/重置密码后继续上传CV、cover letter和demo portfolio。"
       }
     ]
   }
