@@ -3,7 +3,7 @@
     "标题": "温泉海外博后机会看板",
     "所有人": "Wen Quan",
     "研究定位": "AI辅助的适老建成环境与公共卫生评价",
-    "更新时间": "2026-06-15",
+    "更新时间": "2026-06-20",
     "公开说明": "本公开数据仅保留机构、中心、公开链接、方向匹配、申请阶段和脱敏后的下一步；不公开邮箱、Gmail消息编号、证件、附件路径、私人申请草稿或内部备注。",
     "数据来源": "由私有博后申请仓库中的机会清单脱敏生成。"
   },
@@ -16,7 +16,7 @@
       "中心或导师": "Saw Swee Hock SPH, Community Health, Cities and Spatial Analysis",
       "公开链接": "https://careers.nus.edu.sg/job/Research-AssociateAssistant-%28Community-Health%2C-Cities-and-Spatial-Analysis%29/31740-en_GB/",
       "机会状态": "开放申请",
-      "申请入口": "邮件已投/门户待登录",
+      "申请入口": "邮件已投/门户已提交",
       "优先级": "第一批",
       "匹配摘要": "城市健康、空间分析、建成环境暴露",
       "适配重点": "突出城市/建筑环境暴露、空间统计和健康公平。",
@@ -26,8 +26,8 @@
         "建筑/建成环境"
       ],
       "已有适配包": "是",
-      "材料状态": "已按官网要求发送CV、短cover letter和代表论文链接；门户仍需NUS账号/隐私确认",
-      "下一步": "登录或创建NUS SuccessFactors账号，确认隐私条款和profile可见性后补交portal申请"
+      "材料状态": "已按官网要求发送CV、短cover letter和代表论文链接；NUS SuccessFactors门户申请已提交成功",
+      "下一步": "等待NUS后续邮件或portal状态更新"
     },
     {
       "编号": "APAC-02",
@@ -863,7 +863,7 @@
       "中心或导师": "Manchester Urban Ageing Research Group, Tine Buffel",
       "公开链接": "https://www.humanities.manchester.ac.uk/muarg/about/people/",
       "机会状态": "导师外联",
-      "申请入口": "需核验联系渠道",
+      "申请入口": "已邮件外联",
       "优先级": "第一批",
       "匹配摘要": "城市老龄化、年龄友好城市、住房、空间正义",
       "适配重点": "将空间测量与老年居民共同生产结合。",
@@ -873,8 +873,8 @@
         "建筑/建成环境"
       ],
       "已有适配包": "是",
-      "材料状态": "已有第一版定制材料；尚未确认当前联系人",
-      "下一步": "核验导师或中心最新公开联系方式后再外联"
+      "材料状态": "已向Professor Tine Buffel发送首封外联，聚焦age-friendly cities、built-environment evaluation和spatial justice",
+      "下一步": "等待回复；如对方感兴趣，再补发CV、代表论文和简短研究fit说明"
     },
     {
       "编号": "EUSUK-21",
@@ -970,7 +970,7 @@
       "中心或导师": "Environmental Health, Climate, and Sustainability Program",
       "公开链接": "https://careers.lsuhsc.edu/jobs/research-fellow-new-orleans-louisiana-united-states-5d770240-c639-49e6-8b70-d51d3d5ce128",
       "机会状态": "开放申请",
-      "申请入口": "PageUp草稿已建/待本人确认",
+      "申请入口": "HR邮件补交已发/门户未提交",
       "优先级": "第一批",
       "匹配摘要": "城市热暴露、健康差异、GIS/遥感",
       "适配重点": "把空间健康研究转成精细热风险规划成果。",
@@ -979,8 +979,8 @@
         "公共卫生/环境健康"
       ],
       "已有适配包": "是",
-      "材料状态": "PageUp草稿已建；岗位专用CV已上传；cover letter上传页已显示文件名但需复核保存状态；最终提交需本人确认授权/披露/声明",
-      "下一步": "复核cover letter保存状态，确认美国工作授权/赞助、可选披露、真实性声明和最终提交"
+      "材料状态": "PageUp草稿曾建立并上传CV；2026-06-20岗位深链返回404，门户未能最终提交；已向LSUHSC Recruiting Team邮件补交岗位CV、cover letter和代表论文链接",
+      "下一步": "等待HR回复或提供重新开放/继续提交入口"
     },
     {
       "编号": "EUSUK-26",
@@ -1301,13 +1301,14 @@
   "tracking": {
     "概览": {
       "总机会": 60,
-      "已邮件外联": 7,
+      "已邮件外联": 8,
       "已收到回复": 1,
       "待约Zoom": 1,
       "官网待投": 0,
-      "需核验联系渠道": 1,
-      "最近更新": "2026-06-15",
-      "门户待用户确认": 3
+      "需核验联系渠道": 0,
+      "最近更新": "2026-06-20",
+      "门户待用户确认": 1,
+      "HR邮件补交": 1
     },
     "投递事件": [
       {
@@ -1367,33 +1368,37 @@
       {
         "日期": "2026-06-15",
         "目标": "NUS Community Health, Cities and Spatial Analysis",
-        "状态": "邮件申请已发送",
-        "公开说明": "按官网要求向两个联系人发送CV、短cover letter和代表论文链接；portal仍需账号登录和隐私确认。"
+        "状态": "邮件和门户均已提交",
+        "公开说明": "按官网要求向两个联系人发送CV、短cover letter和代表论文链接；SuccessFactors门户申请也已提交成功。"
       },
       {
         "日期": "2026-06-15",
         "目标": "TU Braunschweig SpACE Lab Urban Planning and GeoAI",
         "状态": "正式邮件已投",
         "公开说明": "按官方Phase 1要求发送CV、cover/motivation和publication links。"
+      },
+      {
+        "日期": "2026-06-20",
+        "目标": "University of Manchester Urban Ageing Research Group",
+        "状态": "已邮件外联",
+        "公开说明": "已向Professor Tine Buffel发送age-friendly cities和built-environment evaluation方向外联。"
+      },
+      {
+        "日期": "2026-06-20",
+        "目标": "LSUHSC heat-health GIS Research Fellow",
+        "状态": "HR邮件补交已发",
+        "公开说明": "岗位深链返回404且门户未能最终提交；已向LSUHSC Recruiting Team补交岗位CV、cover letter和代表论文链接。"
       }
     ],
     "官网待投": [],
     "待核验": [
-      {
-        "目标": "NUS Community Health, Cities and Spatial Analysis",
-        "下一步": "登录/创建NUS账号并确认隐私条款后补交portal。"
-      },
       {
         "目标": "Chalmers DYNAMO mobility digital twins",
         "下一步": "补齐个人信息、PhD论文题名、两位推荐人和证明/论文文件后提交ReachMee。"
       },
       {
         "目标": "LSUHSC heat-health GIS Research Fellow",
-        "下一步": "复核cover letter保存状态，并由本人确认工作授权/赞助、可选披露、真实性声明和最终提交。"
-      },
-      {
-        "目标": "University of Manchester Urban Ageing Research Group",
-        "下一步": "核验最新导师或中心公开联系渠道后再外联。"
+        "下一步": "等待HR确认是否仍可接收或提供重新开放/继续提交入口。"
       }
     ]
   }
