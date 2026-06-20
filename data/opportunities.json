@@ -1307,7 +1307,7 @@
       "官网待投": 0,
       "需核验联系渠道": 0,
       "最近更新": "2026-06-21",
-      "门户待用户确认": 4,
+      "门户待用户确认": 3,
       "HR邮件补交": 1
     },
     "投递事件": [
@@ -1478,6 +1478,12 @@
         "目标": "University of Florida Urban Agility and Resilience Lab",
         "状态": "已邮件外联",
         "公开说明": "外联方向为AI辅助韧性建成环境、社区韧性、公共健康和老年脆弱性空间评估；材料包含公开学术主页、demo和GitHub成果。"
+      },
+      {
+        "日期": "2026-06-21",
+        "目标": "PolyU Senior Mobility / Transport Equity Postdoctoral Fellow",
+        "状态": "门户已提交",
+        "公开说明": "PolyU门户确认申请已提交，并提示确认邮件已发送到申请邮箱；材料包含博士后CV、PolyU定制supporting statement、portfolio/demo链接和公开GitHub成果。"
       }
     ],
     "官网待投": [],
@@ -1489,10 +1495,6 @@
       {
         "目标": "LSUHSC heat-health GIS Research Fellow",
         "下一步": "等待HR确认是否仍可接收或提供重新开放/继续提交入口。"
-      },
-      {
-        "目标": "PolyU Senior Mobility / Transport Equity Postdoctoral Fellow",
-        "下一步": "门户CV和补充材料已上传，等待本人补充私密身份、薪资、关系/记录声明、真实性声明和验证码后提交。"
       },
       {
         "目标": "Newcastle Digital Twin Development",
