@@ -3,7 +3,7 @@
     "标题": "温泉海外博后机会看板",
     "所有人": "Wen Quan",
     "研究定位": "AI辅助的适老建成环境与公共卫生评价",
-    "更新时间": "2026-06-21",
+    "更新时间": "2026-06-23",
     "公开说明": "本公开数据仅保留机构、中心、公开链接、方向匹配、申请阶段和脱敏后的下一步；不公开邮箱、Gmail消息编号、证件、附件路径、私人申请草稿或内部备注。",
     "数据来源": "由私有博后申请仓库中的机会清单脱敏生成。"
   },
@@ -26,8 +26,8 @@
         "建筑/建成环境"
       ],
       "已有适配包": "是",
-      "材料状态": "已按官网要求发送CV、短cover letter和代表论文链接；NUS SuccessFactors门户申请已提交成功",
-      "下一步": "等待NUS后续邮件或portal状态更新"
+      "材料状态": "已按官网要求发送CV、短cover letter和代表论文链接；NUS SuccessFactors门户申请已提交成功；2026-06-15 NUS系统确认已收到申请，并提示可在门户补充证书、成绩单、cover letter或推荐信。",
+      "下一步": "等待NUS shortlist或portal状态更新；如要增强材料，可补充学历证明、成绩单和推荐信。"
     },
     {
       "编号": "APAC-02",
@@ -80,8 +80,8 @@
       "大区": "亚太",
       "中心或导师": "Urban Analytics Lab, Filip Biljecki",
       "公开链接": "https://ual.sg/opportunities/vacancies/",
-      "机会状态": "导师外联/观察",
-      "申请入口": "已邮件外联",
+      "机会状态": "导师外联/暂无空缺",
+      "申请入口": "已回复：暂无空缺",
       "优先级": "观察池",
       "匹配摘要": "GeoAI、三维城市、数字孪生、街景",
       "适配重点": "提出健康老龄化社区和住房健康数字孪生。",
@@ -93,8 +93,8 @@
         "智慧建筑/数字孪生"
       ],
       "已有适配包": "是",
-      "材料状态": "已发送博士后CV和portfolio/demo links；材料包含公开学术主页、age-friendly community map demo和GitHub成果链接。",
-      "下一步": "等待NUS Urban Analytics Lab后续回复或岗位更新。"
+      "材料状态": "已发送博士后CV和portfolio/demo links；材料包含公开学术主页、age-friendly community map demo和GitHub成果链接；2026-06-21 Urban Analytics Lab回复当前无空缺，并建议关注实验室openings页面和NUS job portal。",
+      "下一步": "暂不继续追问；观察UAL vacancies和NUS job portal，出现开放岗位后再定制申请。"
     },
     {
       "编号": "APAC-05",
@@ -103,8 +103,8 @@
       "大区": "亚太",
       "中心或导师": "LKYCIC Sociospatial Analytics",
       "公开链接": "https://www.sutd.edu.sg/lkycic/about/careers/",
-      "机会状态": "滚动/长期",
-      "申请入口": "已邮件外联",
+      "机会状态": "滚动/待补材料",
+      "申请入口": "已回复待补材料",
       "优先级": "第一批",
       "匹配摘要": "地理空间数据、传感器、出行、健康暴露",
       "适配重点": "强调空间分析、政策可视化和公共卫生应用。",
@@ -114,8 +114,8 @@
         "城市/交通可达性"
       ],
       "已有适配包": "是",
-      "材料状态": "已发送首封外联；邮件中提供公开学术主页，未公开附件",
-      "下一步": "等待回复；如对方感兴趣，再补发CV、代表论文和简短研究计划"
+      "材料状态": "已发送首封外联；邮件中提供公开学术主页，未公开附件；2026-06-15 LKYCIC回复可补发CV和相关材料，以便转给相关负责人。",
+      "下一步": "如继续推进，补发CV、代表论文/portfolio和简短fit说明给LKYCIC。"
     },
     {
       "编号": "APAC-06",
@@ -209,8 +209,8 @@
       "大区": "亚太",
       "中心或导师": "SEACO, South East Asia Community Observatory",
       "公开链接": "https://www.monash.edu.my/research/platforms-and-infrastructure/priorities/south-east-asia-community-observatory-seaco",
-      "机会状态": "导师外联",
-      "申请入口": "已邮件外联",
+      "机会状态": "导师外联/内部转评",
+      "申请入口": "已回复待内部评估",
       "优先级": "第一批",
       "匹配摘要": "人群健康、社区数据、气候健康、环境暴露",
       "适配重点": "结合社区队列与地理环境暴露分析。",
@@ -220,8 +220,8 @@
         "公共卫生/环境健康"
       ],
       "已有适配包": "是",
-      "材料状态": "已发送首封外联；邮件中提供公开学术主页，未公开附件",
-      "下一步": "等待回复；如对方感兴趣，再补发CV、代表论文和简短研究计划"
+      "材料状态": "已发送首封外联；邮件中提供公开学术主页，未公开附件；2026-06-16 SEACO回复会将咨询和相关信息转给management team审核。",
+      "下一步": "等待SEACO management反馈；如7月仍无后续，可发简短跟进并补CV/代表论文。"
     },
     {
       "编号": "APAC-11",
@@ -441,6 +441,48 @@
       "已有适配包": "是",
       "材料状态": "已发送首封外联；邮件中提供公开学术主页、age-friendly community map demo和GitHub成果，并附博士后CV与portfolio/demo links。",
       "下一步": "等待回复；如对方感兴趣，再准备住房健康和适老指标研究fit说明"
+    },
+    {
+      "编号": "APAC-21",
+      "机构": "Monash University",
+      "国家或地区": "澳大利亚",
+      "大区": "亚太",
+      "中心或导师": "ARC ITTC Optimal Ageing / Monash Robotics, Research Fellow - Robotics (Human-Robot Interaction)",
+      "公开链接": "https://careers.pageuppeople.com/513/cw/en/job/693647/research-fellow-robotics-humanrobot-interaction",
+      "机会状态": "开放申请/官方链接确认",
+      "申请入口": "已回复待门户提交",
+      "优先级": "第一批",
+      "匹配摘要": "最优老龄化、人机交互、机器人、在地养老",
+      "适配重点": "突出老年环境支持、HRI可用性和适老空间评估。",
+      "方向标签": [
+        "AI/空间智能",
+        "养老/健康老龄化",
+        "公共卫生/环境健康"
+      ],
+      "已有适配包": "是",
+      "材料状态": "2026-06-20已发送博士后/合作咨询并附CV和公开demo portfolio；2026-06-22对方确认岗位不是仅限特定群体，并提供官方申请链接。",
+      "下一步": "如继续推进，在Monash PageUp完成正式申请。"
+    },
+    {
+      "编号": "APAC-22",
+      "机构": "The Hong Kong Polytechnic University",
+      "国家或地区": "中国香港",
+      "大区": "亚太",
+      "中心或导师": "Department of Industrial and Systems Engineering, Postdoctoral Fellow",
+      "公开链接": "https://www.polyu.edu.hk/hro/careers/",
+      "机会状态": "门户已提交",
+      "申请入口": "门户已提交/已确认收到",
+      "优先级": "第一批",
+      "匹配摘要": "高龄出行、交通公平、工业与系统工程",
+      "适配重点": "连接老年移动性、交通公平和空间可达性评估。",
+      "方向标签": [
+        "AI/空间智能",
+        "养老/健康老龄化",
+        "城市/交通可达性"
+      ],
+      "已有适配包": "是",
+      "材料状态": "2026-06-21 PolyU邮件确认Postdoctoral Fellow申请已收到，公开岗位编号260616013；将于shortlist后联系。",
+      "下一步": "等待PolyU shortlist或后续安排。"
     },
     {
       "编号": "EUSUK-01",
@@ -818,8 +860,8 @@
       "大区": "英国",
       "中心或导师": "Yuchen Li / Weiming Huang, School of Geography and ISDS",
       "公开链接": "https://environment.leeds.ac.uk/geography/staff/12888/dr-yuchen-li",
-      "机会状态": "导师外联/观察",
-      "申请入口": "已邮件外联",
+      "机会状态": "导师外联/暂无资金",
+      "申请入口": "已回复：暂无资金",
       "优先级": "观察池",
       "匹配摘要": "GIS、城市数据科学、健康地理、GeoAI",
       "适配重点": "把街景、POI和住房指标变成可解释城市健康证据。",
@@ -830,8 +872,8 @@
         "建筑/建成环境"
       ],
       "已有适配包": "是",
-      "材料状态": "已发送博士后CV和portfolio/demo links；材料包含公开学术主页、age-friendly community map demo和GitHub成果链接。",
-      "下一步": "等待Leeds导师后续回复或项目/基金宿主建议。"
+      "材料状态": "已发送博士后CV和portfolio/demo links；材料包含公开学术主页、age-friendly community map demo和GitHub成果链接；2026-06-22 Leeds导师回复当前没有active funding支持postdoc。",
+      "下一步": "暂不继续追问；后续如出现公开funding或fellowship host机会再重启。"
     },
     {
       "编号": "EUSUK-19",
@@ -1296,18 +1338,61 @@
       "已有适配包": "否",
       "材料状态": "已有公开机会记录，待进一步定制",
       "下一步": "跟踪岗位更新并补充导师适配"
+    },
+    {
+      "编号": "EUSUK-41",
+      "机构": "TU Delft",
+      "国家或地区": "欧洲",
+      "大区": "欧洲",
+      "中心或导师": "UrbanHealthTwin / Postdoc in Transdisciplinary Digital Twins for Climate-Smart and Health-Safe Cities",
+      "公开链接": "https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft/search-jobs/",
+      "机会状态": "门户已提交",
+      "申请入口": "门户已提交/已确认收到",
+      "优先级": "第一批",
+      "匹配摘要": "数字孪生、气候韧性、健康安全城市、跨学科建成环境",
+      "适配重点": "突出城市数字孪生、热健康风险、适老社区指标和空间智能评估。",
+      "方向标签": [
+        "AI/空间智能",
+        "公共卫生/环境健康",
+        "建筑/建成环境",
+        "智慧建筑/数字孪生"
+      ],
+      "已有适配包": "是",
+      "材料状态": "2026-06-20 TU Delft邮件确认Postdoc申请已收到；材料包含博士后CV、定制动机信、公开学术主页和demo成果链接。",
+      "下一步": "等待TU Delft shortlist或面试通知。"
+    },
+    {
+      "编号": "EUSUK-42",
+      "机构": "UCL / Greater London Authority",
+      "国家或地区": "英国",
+      "大区": "英国",
+      "中心或导师": "Research Fellow / Senior Research Fellow (Climate Policy and Health)",
+      "公开链接": "https://www.ucl.ac.uk/work-at-ucl/search-ucl-jobs",
+      "机会状态": "门户已提交",
+      "申请入口": "门户已提交/已确认收到",
+      "优先级": "第一批",
+      "匹配摘要": "气候政策、健康、城市治理、环境暴露",
+      "适配重点": "连接气候健康政策、热暴露、适老建成环境和城市公平评估。",
+      "方向标签": [
+        "公共卫生/环境健康",
+        "建筑/建成环境",
+        "城市/交通可达性"
+      ],
+      "已有适配包": "是",
+      "材料状态": "2026-06-20 UCL邮件确认Research Fellow / Senior Research Fellow申请已收到；材料包含博士后CV、定制supporting statement和公开portfolio/demo links。",
+      "下一步": "等待UCL closing date后续shortlist或招聘团队联系。"
     }
   ],
   "tracking": {
     "概览": {
-      "总机会": 60,
+      "总机会": 64,
       "已邮件外联": 21,
-      "已收到回复": 1,
+      "已收到回复": 6,
       "待约Zoom": 1,
       "官网待投": 0,
       "需核验联系渠道": 0,
-      "最近更新": "2026-06-21",
-      "门户待用户确认": 3,
+      "最近更新": "2026-06-23",
+      "门户待用户确认": 4,
       "HR邮件补交": 1
     },
     "投递事件": [
@@ -1484,6 +1569,42 @@
         "目标": "PolyU Senior Mobility / Transport Equity Postdoctoral Fellow",
         "状态": "门户已提交",
         "公开说明": "PolyU门户确认申请已提交，并提示确认邮件已发送到申请邮箱；材料包含博士后CV、PolyU定制supporting statement、portfolio/demo链接和公开GitHub成果。"
+      },
+      {
+        "日期": "2026-06-15",
+        "目标": "SUTD LKYCIC Sociospatial Analytics",
+        "状态": "收到回复/待补材料",
+        "公开说明": "LKYCIC提供career link，并表示可补发CV和相关材料以转给负责人。"
+      },
+      {
+        "日期": "2026-06-15",
+        "目标": "NUS Community Health, Cities and Spatial Analysis",
+        "状态": "申请已收到",
+        "公开说明": "NUS系统确认收到Research Associate申请，并提示可在门户补充证明材料。"
+      },
+      {
+        "日期": "2026-06-16",
+        "目标": "Monash Malaysia SEACO",
+        "状态": "收到回复/内部转评",
+        "公开说明": "SEACO将咨询和相关信息转给management team审核。"
+      },
+      {
+        "日期": "2026-06-21",
+        "目标": "NUS Urban Analytics Lab",
+        "状态": "收到回复/暂无空缺",
+        "公开说明": "当前无空缺，建议关注Urban Analytics Lab openings页面和NUS job portal。"
+      },
+      {
+        "日期": "2026-06-22",
+        "目标": "Monash Optimal Ageing Robotics / HRI",
+        "状态": "收到回复/待门户提交",
+        "公开说明": "对方确认Research Fellow - Robotics (HRI)岗位不是仅限特定群体，并提供官方申请链接。"
+      },
+      {
+        "日期": "2026-06-22",
+        "目标": "University of Leeds urban data science / health geography",
+        "状态": "收到回复/暂无资金",
+        "公开说明": "Leeds导师回复当前没有active funding支持postdoc。"
       }
     ],
     "官网待投": [],
