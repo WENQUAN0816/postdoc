@@ -876,9 +876,10 @@
     }
 
     const dataVersion = new URLSearchParams(window.location.search).get('v');
+    const dataBuild = '2026062901';
     const dataUrl = dataVersion
-      ? `data/opportunities.json?v=${encodeURIComponent(dataVersion)}`
-      : 'data/opportunities.json';
+      ? `data/opportunities.json?v=${encodeURIComponent(dataVersion)}&data=${dataBuild}`
+      : `data/opportunities.json?data=${dataBuild}`;
 
     fetch(dataUrl)
       .then(response => {
