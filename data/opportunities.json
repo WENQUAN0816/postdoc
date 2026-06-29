@@ -3,8 +3,8 @@
     "标题": "温泉海外博后机会看板",
     "所有人": "Wen Quan",
     "研究定位": "AI辅助的适老建成环境与公共卫生评价",
-    "更新时间": "2026-06-23",
-    "公开说明": "本公开数据仅保留机构、中心、公开链接、方向匹配、申请阶段和脱敏后的下一步；不公开邮箱、Gmail消息编号、证件、附件路径、私人申请草稿或内部备注。",
+    "更新时间": "2026-06-29",
+    "公开说明": "本公开数据仅保留机构、中心、公开链接、方向匹配、申请阶段和脱敏后的下一步；2026-06-29已加入日本岗位筛选结果；不公开邮箱、Gmail消息编号、证件、附件路径、私人申请草稿或内部备注。",
     "数据来源": "由私有博后申请仓库中的机会清单脱敏生成。"
   },
   "opportunities": [
@@ -483,6 +483,147 @@
       "已有适配包": "是",
       "材料状态": "2026-06-21 PolyU邮件确认Postdoctoral Fellow申请已收到，公开岗位编号260616013；将于shortlist后联系。",
       "下一步": "等待PolyU shortlist或后续安排。"
+    },
+    {
+      "编号": "APAC-23",
+      "机构": "Keio University",
+      "国家或地区": "日本",
+      "大区": "亚太",
+      "中心或导师": "WPI-Bio2Q, Human Biology-Microbiome-Quantum Research Center, Postdoctoral Fellow",
+      "公开链接": "https://jrecin.jst.go.jp/seek/SeekJorDetail?fn=0&ln=1&id=D126060688&ln_jor=1",
+      "机会状态": "开放/推荐信阻塞",
+      "申请入口": "需核验/推荐信阻塞",
+      "优先级": "第一批",
+      "匹配摘要": "健康长寿、老龄化、环境-人体界面、AI和多组学",
+      "适配重点": "把个人方向包装为AI-driven analysis of environmental and biological factors for healthy longevity。",
+      "方向标签": [
+        "AI/空间智能",
+        "养老/健康老龄化",
+        "公共卫生/环境健康"
+      ],
+      "已有适配包": "是",
+      "材料状态": "已准备Keio Bio2Q方向CV、research activities和motivation letter，并建立邮件草稿；因官方要求推荐信和Google Form，未正式发送或提交。",
+      "下一步": "只有取得真实推荐信并完成官方Google Form后再恢复；当前对应窗口已关闭。"
+    },
+    {
+      "编号": "APAC-24",
+      "机构": "Institute of Science Tokyo",
+      "国家或地区": "日本",
+      "大区": "亚太",
+      "中心或导师": "BioMedical Artificial Intelligence Research Unit, Research Staff / Postdoc",
+      "公开链接": "https://jrecin.jst.go.jp/seek/SeekJorDetail?id=D126051880&ln=1",
+      "机会状态": "开放申请",
+      "申请入口": "官网/门户待提交",
+      "优先级": "第一批",
+      "匹配摘要": "医学AI、深度学习、医学影像、隐私保护医疗数据分析",
+      "适配重点": "定位为AI-based health informatics and privacy-preserving healthcare analytics，并诚实说明从建成环境健康AI向医学AI迁移。",
+      "方向标签": [
+        "AI/空间智能",
+        "公共卫生/环境健康",
+        "养老/健康老龄化"
+      ],
+      "已有适配包": "是",
+      "材料状态": "已核验JREC-IN portal-only路径；公开材料要求为JREC-IN CV、achievement statement、三篇代表论文PDF、一页research statement和两位reference contact，不要求推荐信文件。",
+      "下一步": "作为当前日本最可执行目标：准备单个zip包并在JREC-IN登录后提交，截止2026-08-03。"
+    },
+    {
+      "编号": "APAC-25",
+      "机构": "JAIST",
+      "国家或地区": "日本",
+      "大区": "亚太",
+      "中心或导师": "AI Social Human Sciences, Assistant Professor / Senior Lecturer",
+      "公开链接": "https://jrecin.jst.go.jp/seek/SeekJorDetail?ln=1&id=D125101876&ln_jor=1",
+      "机会状态": "已关闭",
+      "申请入口": "已关闭/不行动",
+      "优先级": "观察池",
+      "匹配摘要": "AI社会/人类科学、生成式AI、社会数据和组织/人类经验研究",
+      "适配重点": "可作为未来AI aging society和elderly care environment教职包装参考。",
+      "方向标签": [
+        "AI/空间智能",
+        "养老/健康老龄化"
+      ],
+      "已有适配包": "是",
+      "材料状态": "已完成本地fit和材料框架，但公开截止日期为2025-12-17，已经过期。",
+      "下一步": "不再申请；仅保留为未来JAIST相近岗位关键词参考。"
+    },
+    {
+      "编号": "APAC-26",
+      "机构": "University of Aizu",
+      "国家或地区": "日本",
+      "大区": "亚太",
+      "中心或导师": "Computer Science and Engineering, AI / Biomedical Engineering Tenure-track Faculty",
+      "公开链接": "https://jrecin.jst.go.jp/seek/SeekJorDetail?id=D126040344&ln=1",
+      "机会状态": "临近截止/推荐信阻塞",
+      "申请入口": "需核验/推荐信阻塞",
+      "优先级": "第二批",
+      "匹配摘要": "AI、Biomedical Engineering、英文友好CS工程教职",
+      "适配重点": "可包装为AI for health, aging society and smart care environment，但需要更强CS教学和三封推荐信支撑。",
+      "方向标签": [
+        "AI/空间智能",
+        "公共卫生/环境健康",
+        "智慧建筑/数字孪生"
+      ],
+      "已有适配包": "是",
+      "材料状态": "已准备本地source verification、fit analysis、materials map和cover draft；主要缺Aizu格式CV、三封真实推荐信、论文PDF、学历证明和门户账号/验证。",
+      "下一步": "因2026-06-30 17:00 JST截止且推荐信/证明材料不足，窗口已关闭；除非三位推荐人能立即提交。"
+    },
+    {
+      "编号": "APAC-27",
+      "机构": "Tohoku University",
+      "国家或地区": "日本",
+      "大区": "亚太",
+      "中心或导师": "Institute of Development, Aging and Cancer, Professor",
+      "公开链接": "https://www.tohoku.ac.jp/en/news/careers/recruitment_professor_IDAC.html",
+      "机会状态": "观察名单/不优先",
+      "申请入口": "不投/观察",
+      "优先级": "观察池",
+      "匹配摘要": "aging biology、aging medicine、age-related diseases、dementia和cancer",
+      "适配重点": "方向与老龄化医学相关，但岗位为PI级教授，当前成果和学科背景不匹配。",
+      "方向标签": [
+        "养老/健康老龄化",
+        "公共卫生/环境健康"
+      ],
+      "已有适配包": "否",
+      "材料状态": "已核验岗位和fit；不制作正式申请包。",
+      "下一步": "不投递；作为日本aging research生态观察目标。"
+    },
+    {
+      "编号": "APAC-28",
+      "机构": "Meijo University",
+      "国家或地区": "日本",
+      "大区": "亚太",
+      "中心或导师": "Intelligence Science and Technology, Professor or Associate Professor",
+      "公开链接": "https://jrecin.jst.go.jp/seek/SeekJorDetail?ln=1&id=D126060786&ln_jor=1",
+      "机会状态": "观察名单/不优先",
+      "申请入口": "不投/观察",
+      "优先级": "观察池",
+      "匹配摘要": "AI、pattern recognition、data science、intelligent informatics",
+      "适配重点": "AI主题相关，但教授/副教授层级和日语教学指导要求使当前投入回报低。",
+      "方向标签": [
+        "AI/空间智能"
+      ],
+      "已有适配包": "否",
+      "材料状态": "已筛选为低优先级；不制作正式申请包。",
+      "下一步": "不投递；未来若有英文博后/助理教授版本再重新评估。"
+    },
+    {
+      "编号": "APAC-29",
+      "机构": "University of Hyogo",
+      "国家或地区": "日本",
+      "大区": "亚太",
+      "中心或导师": "Artificial Intelligence and Informatics, Full-time Professor",
+      "公开链接": "https://jrecin.jst.go.jp/seek/SeekJorDetail?ln=1&id=D126061626&ln_jor=1",
+      "机会状态": "观察名单/推荐信要求",
+      "申请入口": "需核验/推荐信阻塞",
+      "优先级": "观察池",
+      "匹配摘要": "AI and Informatics、digital communication、networking、DX人才培养",
+      "适配重点": "正教授岗位，需要日语教学/行政和推荐信；与当前AI健康老龄化申请主线不匹配。",
+      "方向标签": [
+        "AI/空间智能"
+      ],
+      "已有适配包": "否",
+      "材料状态": "已核验官方岗位开放，但因教授层级、日语要求和推荐信要求，关闭对应窗口。",
+      "下一步": "不投递；除非未来已有日本教授级推荐信和日语教学/admin准备。"
     },
     {
       "编号": "EUSUK-01",
@@ -1385,15 +1526,18 @@
   ],
   "tracking": {
     "概览": {
-      "总机会": 64,
+      "总机会": 71,
       "已邮件外联": 21,
       "已收到回复": 6,
       "待约Zoom": 1,
-      "官网待投": 0,
-      "需核验联系渠道": 0,
-      "最近更新": "2026-06-23",
-      "门户待用户确认": 4,
-      "HR邮件补交": 1
+      "官网待投": 1,
+      "需核验联系渠道": 3,
+      "最近更新": "2026-06-29",
+      "门户待用户确认": 5,
+      "HR邮件补交": 1,
+      "日本岗位新增": 7,
+      "日本当前优先": "Institute of Science Tokyo Biomedical AI Postdoc",
+      "推荐信或材料阻塞": 3
     },
     "投递事件": [
       {
@@ -1605,9 +1749,56 @@
         "目标": "University of Leeds urban data science / health geography",
         "状态": "收到回复/暂无资金",
         "公开说明": "Leeds导师回复当前没有active funding支持postdoc。"
+      },
+      {
+        "日期": "2026-06-29",
+        "目标": "Keio University WPI-Bio2Q Postdoctoral Fellow",
+        "状态": "草稿已建/推荐信阻塞",
+        "公开说明": "已准备Bio2Q方向材料和邮件草稿；因官方要求推荐信和Google Form，未正式发送或提交。"
+      },
+      {
+        "日期": "2026-06-29",
+        "目标": "Institute of Science Tokyo Biomedical AI Postdoc",
+        "状态": "门户待提交",
+        "公开说明": "JREC-IN portal-only；公开要求为材料zip和两位reference contact，不要求推荐信文件，是当前日本优先行动项。"
+      },
+      {
+        "日期": "2026-06-29",
+        "目标": "JAIST AI Social Human Sciences",
+        "状态": "已关闭/不行动",
+        "公开说明": "公开截止日期为2025-12-17，已过期；仅保留为未来AI社会科学岗位关键词参考。"
+      },
+      {
+        "日期": "2026-06-29",
+        "目标": "University of Aizu AI / Biomedical Engineering Faculty",
+        "状态": "材料阻塞/窗口关闭",
+        "公开说明": "岗位临近截止且需要三封真实推荐信、Aizu格式CV和证明材料；当前不继续推进。"
+      },
+      {
+        "日期": "2026-06-29",
+        "目标": "Tohoku University IDAC Aging and Cancer Professor",
+        "状态": "观察/不投",
+        "公开说明": "方向涉及老龄医学，但岗位为教授/PI级，当前不作为申请目标。"
+      },
+      {
+        "日期": "2026-06-29",
+        "目标": "Meijo University AI / Data Science Faculty",
+        "状态": "观察/不投",
+        "公开说明": "AI方向相关，但教授/副教授层级和日语教学指导要求较高，当前不优先。"
+      },
+      {
+        "日期": "2026-06-29",
+        "目标": "University of Hyogo AI and Informatics Professor",
+        "状态": "观察/推荐信阻塞",
+        "公开说明": "正教授岗位，需要日语教学/行政能力和真实推荐信；已关闭对应窗口。"
       }
     ],
-    "官网待投": [],
+    "官网待投": [
+      {
+        "目标": "Institute of Science Tokyo Biomedical AI Postdoc",
+        "下一步": "准备JREC-IN要求的单个zip包：指定CV、achievement statement、三篇代表论文PDF、一页research statement和两位reference contact；截止2026-08-03。"
+      }
+    ],
     "待核验": [
       {
         "目标": "Chalmers DYNAMO mobility digital twins",

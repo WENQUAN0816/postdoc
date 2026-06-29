@@ -875,7 +875,12 @@
       });
     }
 
-    fetch('data/opportunities.json')
+    const dataVersion = new URLSearchParams(window.location.search).get('v');
+    const dataUrl = dataVersion
+      ? `data/opportunities.json?v=${encodeURIComponent(dataVersion)}`
+      : 'data/opportunities.json';
+
+    fetch(dataUrl)
       .then(response => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
