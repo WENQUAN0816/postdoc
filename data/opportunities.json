@@ -4,7 +4,7 @@
     "所有人": "Wen Quan",
     "研究定位": "AI辅助的适老建成环境与公共卫生评价",
     "更新时间": "2026-06-29",
-    "公开说明": "本公开数据仅保留机构、中心、公开链接、方向匹配、申请阶段和脱敏后的下一步；2026-06-29已加入日本岗位筛选结果；不公开邮箱、Gmail消息编号、证件、附件路径、私人申请草稿或内部备注。",
+    "公开说明": "本公开数据仅保留机构、中心、公开链接、方向匹配、申请阶段和脱敏后的下一步；2026-06-29已加入日本岗位筛选结果，并标出暂时没有推荐信时仍可推进的2个目标；不公开邮箱、Gmail消息编号、证件、附件路径、私人申请草稿或内部备注。",
     "数据来源": "由私有博后申请仓库中的机会清单脱敏生成。"
   },
   "opportunities": [
@@ -512,7 +512,7 @@
       "大区": "亚太",
       "中心或导师": "BioMedical Artificial Intelligence Research Unit, Research Staff / Postdoc",
       "公开链接": "https://jrecin.jst.go.jp/seek/SeekJorDetail?id=D126051880&ln=1",
-      "机会状态": "开放申请",
+      "机会状态": "开放/无推荐信可推进",
       "申请入口": "官网/门户待提交",
       "优先级": "第一批",
       "匹配摘要": "医学AI、深度学习、医学影像、隐私保护医疗数据分析",
@@ -523,8 +523,8 @@
         "养老/健康老龄化"
       ],
       "已有适配包": "是",
-      "材料状态": "已核验JREC-IN portal-only路径；公开材料要求为JREC-IN CV、achievement statement、三篇代表论文PDF、一页research statement和两位reference contact，不要求推荐信文件。",
-      "下一步": "作为当前日本最可执行目标：准备单个zip包并在JREC-IN登录后提交，截止2026-08-03。"
+      "材料状态": "已核验JREC-IN portal-only路径；公开材料要求为JREC-IN CV、achievement statement、三篇代表论文PDF、一页research statement和两位reference contact；不要求推荐信文件。",
+      "下一步": "无推荐信也可推进：准备单个zip包并在JREC-IN登录后提交，截止2026-08-03。"
     },
     {
       "编号": "APAC-25",
@@ -574,9 +574,9 @@
       "大区": "亚太",
       "中心或导师": "Institute of Development, Aging and Cancer, Professor",
       "公开链接": "https://www.tohoku.ac.jp/en/news/careers/recruitment_professor_IDAC.html",
-      "机会状态": "观察名单/不优先",
-      "申请入口": "不投/观察",
-      "优先级": "观察池",
+      "机会状态": "开放/无推荐信可冲刺",
+      "申请入口": "邮件/ZIP待提交",
+      "优先级": "第二批",
       "匹配摘要": "aging biology、aging medicine、age-related diseases、dementia和cancer",
       "适配重点": "方向与老龄化医学相关，但岗位为PI级教授，当前成果和学科背景不匹配。",
       "方向标签": [
@@ -584,8 +584,8 @@
         "公共卫生/环境健康"
       ],
       "已有适配包": "否",
-      "材料状态": "已核验岗位和fit；不制作正式申请包。",
-      "下一步": "不投递；作为日本aging research生态观察目标。"
+      "材料状态": "官方要求CV、research achievements、research statement、future research and teaching plan、最多10篇主要论文PDF和三位reference contact；不要求推荐信文件。低匹配点是tenured professor级别和aging biology/medicine主线。",
+      "下一步": "无推荐信也可准备邮件ZIP冲刺；仅作为低匹配备选，截止2026-08-31。"
     },
     {
       "编号": "APAC-28",
@@ -1530,14 +1530,15 @@
       "已邮件外联": 21,
       "已收到回复": 6,
       "待约Zoom": 1,
-      "官网待投": 1,
+      "官网待投": 2,
       "需核验联系渠道": 3,
       "最近更新": "2026-06-29",
       "门户待用户确认": 5,
       "HR邮件补交": 1,
       "日本岗位新增": 7,
-      "日本当前优先": "Institute of Science Tokyo Biomedical AI Postdoc",
-      "推荐信或材料阻塞": 3
+      "日本当前优先": "Institute of Science Tokyo Biomedical AI Postdoc；Tohoku IDAC为低匹配冲刺备选",
+      "推荐信或材料阻塞": 3,
+      "日本无推荐信可推进": 2
     },
     "投递事件": [
       {
@@ -1791,12 +1792,22 @@
         "目标": "University of Hyogo AI and Informatics Professor",
         "状态": "观察/推荐信阻塞",
         "公开说明": "正教授岗位，需要日语教学/行政能力和真实推荐信；已关闭对应窗口。"
+      },
+      {
+        "日期": "2026-06-29",
+        "目标": "Japan no-recommendation application shortlist",
+        "状态": "已更新可投2项",
+        "公开说明": "因暂时没有推荐信，将日本可推进目标收窄为Science Tokyo Biomedical AI和Tohoku IDAC低匹配冲刺；需要推荐信文件的岗位继续标为阻塞。"
       }
     ],
     "官网待投": [
       {
         "目标": "Institute of Science Tokyo Biomedical AI Postdoc",
-        "下一步": "准备JREC-IN要求的单个zip包：指定CV、achievement statement、三篇代表论文PDF、一页research statement和两位reference contact；截止2026-08-03。"
+        "下一步": "无推荐信也可推进。准备JREC-IN要求的单个zip包：指定CV、achievement statement、三篇代表论文PDF、一页research statement和两位reference contact；截止2026-08-03。"
+      },
+      {
+        "目标": "Tohoku University IDAC Aging and Cancer Professor",
+        "下一步": "无推荐信也可冲刺，但匹配较弱。准备邮件ZIP：CV、研究业绩、研究陈述、未来研究和教学计划、最多10篇主要论文PDF和三位reference contact；截止2026-08-31。"
       }
     ],
     "待核验": [
